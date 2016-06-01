@@ -26,3 +26,12 @@
 ## What is a neural network
 ![A linear model](png/linmod4.png)
 
+## What is a neural network
+![A single layer perceptron](png/slp1.png)
+
+## What is a neural network
+![A single layer perceptron](png/slp2.png)
+
+## What is a neural network
+![A single layer perceptron](png/slp3.png)
+
