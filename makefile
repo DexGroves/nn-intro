@@ -1,2 +1,2 @@
 all:
-	pandoc -t beamer nn.md -o nn.pdf
+	pandoc -t beamer --slide-level 2 nn.md -o nn.pdf
