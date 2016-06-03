@@ -45,17 +45,29 @@
 
 # Activations
 
+## Linear
+- Useless
+\includegraphics[width=2in,right]{png/3-activations_linear.png}
+
 ## Threshold
-\includegraphics[width=2in]{png/3-activations_threshold.png}
+- Similar to biological neuron
+- No gradient
+\includegraphics[width=2in,right]{png/3-activations_threshold.png}
 
 ## Sigmoid
-\includegraphics[width=2in]{png/3-activations_sigmoid.png}
+- $tanh$ preferred
+- Gradients can vanish
+\includegraphics[width=2in,right]{png/3-activations_sigmoid.png}
 
 ## ReLU
-\includegraphics[width=2in]{png/3-activations_relu0.png}
+- No vanishing gradient
+- Cheap to compute
+- Can explode and die
+- Popular with CNNs
+\includegraphics[width=2in,right,valign=b]{png/3-activations_relu1.png}
 
-## ReLU
-\includegraphics[width=2in]{png/3-activations_relu1.png}
-
-## Gaussian
-\includegraphics[width=2in]{png/3-activations_gaussian.png}
+## Radial basis functions
+- Gaussian + others
+- Train very quickly
+- Good at interpolation
+\includegraphics[width=2in,right,valign=b]{png/3-activations_gaussian.png}
