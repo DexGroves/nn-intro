@@ -1,3 +1,0 @@
-http://neuralnetworksanddeeplearning.com/chap4.html
-http://cs231n.github.io/
-https://www.youtube.com/watch?v=bxe2T-V8XRs
