@@ -78,50 +78,50 @@
 ## Convolutional Neural Networks
 - Image recognition killer
 
-## Convolutional Neural Networks
+## Conceptual structure
 \includegraphics[width=4in]{png/conv/convnet1.png}
 
-## Convolutional Neural Networks
+## MLP $\rightarrow$ too many weights!
 \includegraphics[width=4in]{png/conv/convnet2.png}
 
-## Convolutional Neural Networks
+## Local connectivity
 \includegraphics[width=4in]{png/conv/convnet3.png}
 
-## Convolutional Neural Networks
+## Local connectivity + convolution
 \includegraphics[width=4in]{png/conv/convnet4.png}
 
-## Convolutional Neural Networks
+## Local connectivity + convolution
 \includegraphics[width=4in]{png/conv/convnet5a.png}
 
-## Convolutional Neural Networks
+## Local connectivity + convolution
 \includegraphics[width=4in]{png/conv/convnet5b.png}
 
-## Convolutional Neural Networks
+## Local connectivity + convolution
 \includegraphics[width=4in]{png/conv/convnet5c.png}
 
-## Convolutional Neural Networks
+## Local connectivity + convolution
 \includegraphics[width=4in]{png/conv/convnet5d.png}
 
-## Convolutional Neural Networks
+## Local connectivity + convolution
 \includegraphics[width=4in]{png/conv/convnet5e.png}
 
-## Convolutional Neural Networks
+## One filter forms a surface
 \includegraphics[width=4in]{png/conv/convnet5f.png}
 
-## Convolutional Neural Networks
+## Many filters form a volume
 \includegraphics[width=4in]{png/conv/convnet5g.png}
 
-## Convolutional Neural Networks
+## Typical processing structure
 \includegraphics[width=4in]{png/conv/convnet7.png}
 
-## Convolutional Neural Networks
+## AlexNet's filters
 \includegraphics[width=2.4in]{png/conv/convnet6_alexnet.jpeg}
 
-## Convolutional Neural Networks
+## Pooling
 \includegraphics[width=4in]{png/conv/convnet8a.png}
 
-## Convolutional Neural Networks
+## Pooling
 \includegraphics[width=4in]{png/conv/convnet8b.png}
 
-## Convolutional Neural Networks
+## Typical structure of a CNN
 \includegraphics[width=4in]{png/conv/convnet9.png}
