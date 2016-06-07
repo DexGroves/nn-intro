@@ -22,6 +22,7 @@
 ## A graphical linear model
 \includegraphics[width=4in]{png/0-linmod1.png}
 
+
 ## A graphical linear model
 \includegraphics[width=4in]{png/0-linmod2.png}
 
@@ -71,3 +72,56 @@
 - Train very quickly
 - Good at interpolation
 \includegraphics[width=2in,right,valign=b]{png/3-activations_gaussian.png}
+
+# Convolutional Neural Networks
+
+## Convolutional Neural Networks
+- Image recognition killer
+
+## Convolutional Neural Networks
+\includegraphics[width=4in]{png/conv/convnet1.png}
+
+## Convolutional Neural Networks
+\includegraphics[width=4in]{png/conv/convnet2.png}
+
+## Convolutional Neural Networks
+\includegraphics[width=4in]{png/conv/convnet3.png}
+
+## Convolutional Neural Networks
+\includegraphics[width=4in]{png/conv/convnet4.png}
+
+## Convolutional Neural Networks
+\includegraphics[width=4in]{png/conv/convnet5a.png}
+
+## Convolutional Neural Networks
+\includegraphics[width=4in]{png/conv/convnet5b.png}
+
+## Convolutional Neural Networks
+\includegraphics[width=4in]{png/conv/convnet5c.png}
+
+## Convolutional Neural Networks
+\includegraphics[width=4in]{png/conv/convnet5d.png}
+
+## Convolutional Neural Networks
+\includegraphics[width=4in]{png/conv/convnet5e.png}
+
+## Convolutional Neural Networks
+\includegraphics[width=4in]{png/conv/convnet5f.png}
+
+## Convolutional Neural Networks
+\includegraphics[width=4in]{png/conv/convnet5g.png}
+
+## Convolutional Neural Networks
+\includegraphics[width=4in]{png/conv/convnet7.png}
+
+## Convolutional Neural Networks
+\includegraphics[width=2.4in]{png/conv/convnet6_alexnet.jpeg}
+
+## Convolutional Neural Networks
+\includegraphics[width=4in]{png/conv/convnet8a.png}
+
+## Convolutional Neural Networks
+\includegraphics[width=4in]{png/conv/convnet8b.png}
+
+## Convolutional Neural Networks
+\includegraphics[width=4in]{png/conv/convnet9.png}
