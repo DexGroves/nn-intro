@@ -5,7 +5,7 @@
 ## Overview
 
 - Hypest ML
-- Good at unstructured probelms
+- Good at unstructured problems
 - Suboptimal at structured problems
 
 ## History
