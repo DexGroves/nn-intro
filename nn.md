@@ -44,6 +44,42 @@
 ## A multilayer multinomial classifier
 \includegraphics[width=4in]{png/2-mlp_multinomial0.png}
 
+# Training: Gradient Descent
+
+## Forward pass
+\includegraphics[width=4in]{png/bprop/0-fpass0.png}
+
+## Forward pass
+\includegraphics[width=4in]{png/bprop/0-fpass1.png}
+
+## Backwards pass
+\includegraphics[width=4in]{png/bprop/1-bpass0.png}
+
+## Backwards pass
+\includegraphics[width=4in]{png/bprop/1-bpass1.png}
+
+## Backwards pass
+\includegraphics[width=4in]{png/bprop/1-bpass2.png}
+
+## Backwards pass
+\includegraphics[width=4in]{png/bprop/1-bpass3.png}
+
+## Backwards pass
+\includegraphics[width=4in]{png/bprop/1-bpass4.png}
+
+## Backwards pass
+\includegraphics[width=4in]{png/bprop/1-bpass5.png}
+
+## Backwards pass
+\includegraphics[width=4in]{png/bprop/1-bpass6.png}
+
+## Backwards pass
+\includegraphics[width=4in]{png/bprop/1-bpass7.png}
+
+## Resources
+- Cool youtube series: https://www.youtube.com/watch?v=bxe2T-V8XRs
+- Pain and toil: Elements of Statistical Learning ch11
+
 # Activations
 
 ## Linear
