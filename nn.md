@@ -43,33 +43,33 @@
 ## A multilayer multinomial classifier
 \includegraphics[width=4in]{png/2-mlp_multinomial0.png}
 
-# Training
+# Gradient Descent
 
-## Gradient descent
+## Gradient Descent
 \includegraphics[width=4in]{png/grad-desc/gdesc00.jpg}
 
-## Gradient descent
+## Gradient Descent
 \includegraphics[width=4in]{png/grad-desc/gdesc01.jpg}
 
-## Gradient descent
+## Gradient Descent
 \includegraphics[width=4in]{png/grad-desc/gdesc02.jpg}
 
-## Gradient descent
+## Gradient Descent
 \includegraphics[width=4in]{png/grad-desc/gdesc03.jpg}
 
-## Gradient descent
+## Gradient Descent
 \includegraphics[width=4in]{png/grad-desc/gdesc04.jpg}
 
-## Gradient descent and momentum
+## Gradient Descent and Momentum
 \includegraphics[width=4in]{png/grad-desc/gdesc05.jpg}
 
-## Gradient descent and momentum
+## Gradient Descent and Momentum
 \includegraphics[width=4in]{png/grad-desc/gdesc06.jpg}
 
-## Gradient descent and momentum
+## Gradient Descent and Momentum
 \includegraphics[width=4in]{png/grad-desc/gdesc07.jpg}
 
-## Gradient descent and momentum
+## Gradient Descent and Momentum
 \includegraphics[width=4in]{png/grad-desc/gdesc08.jpg}
 
 # Backprop
