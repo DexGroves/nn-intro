@@ -22,7 +22,6 @@
 ## A graphical linear model
 \includegraphics[width=4in]{png/0-linmod1.png}
 
-
 ## A graphical linear model
 \includegraphics[width=4in]{png/0-linmod2.png}
 
@@ -44,7 +43,36 @@
 ## A multilayer multinomial classifier
 \includegraphics[width=4in]{png/2-mlp_multinomial0.png}
 
-# Training: Gradient Descent
+# Training
+
+## Gradient descent
+\includegraphics[width=4in]{png/grad-desc/gdesc00.jpg}
+
+## Gradient descent
+\includegraphics[width=4in]{png/grad-desc/gdesc01.jpg}
+
+## Gradient descent
+\includegraphics[width=4in]{png/grad-desc/gdesc02.jpg}
+
+## Gradient descent
+\includegraphics[width=4in]{png/grad-desc/gdesc03.jpg}
+
+## Gradient descent
+\includegraphics[width=4in]{png/grad-desc/gdesc04.jpg}
+
+## Gradient descent and momentum
+\includegraphics[width=4in]{png/grad-desc/gdesc05.jpg}
+
+## Gradient descent and momentum
+\includegraphics[width=4in]{png/grad-desc/gdesc06.jpg}
+
+## Gradient descent and momentum
+\includegraphics[width=4in]{png/grad-desc/gdesc07.jpg}
+
+## Gradient descent and momentum
+\includegraphics[width=4in]{png/grad-desc/gdesc08.jpg}
+
+# Backprop
 
 ## Forward pass
 \includegraphics[width=4in]{png/bprop/0-fpass0.png}
