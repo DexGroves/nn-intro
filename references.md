@@ -9,3 +9,9 @@ https://www.youtube.com/watch?v=bxe2T-V8XRs
 
 ## Karpathy talking through reinforcement learning
 https://karpathy.github.io/2016/05/31/rl/
+
+## Yann LeCun's efficient backprop paper
+http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf
+
+## Dropout paper
+http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
