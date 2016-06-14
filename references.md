@@ -15,3 +15,6 @@ http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf
 
 ## Dropout paper
 http://jmlr.org/papers/volume15/srivastava14a/srivastava14a.pdf
+
+## Fun CNN walkthrough
+https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721#.n7bfrewa9
