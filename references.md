@@ -13,6 +13,7 @@
 
 # Reinforcement Learning
 [Karpathy talking through RL](https://karpathy.github.io/2016/05/31/rl/)
+
 [Cool Q-learning post](http://www.nervanasys.com/demystifying-deep-reinforcement-learning/)
 
 # CNN
