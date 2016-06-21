@@ -6,6 +6,10 @@
 
 [Very well explained backpropagation tutorial](https://www.youtube.com/watch?v=bxe2T-V8XRs)
 
+[Gradient Descent with a focus on neural applications](http://sebastianruder.com/optimizing-gradient-descent/)
+
+[O'Reilly basic concepts of TensorFlow](https://www.oreilly.com/learning/hello-tensorflow)
+
 # Useful papers
 [Yann LeCun's efficient backprop paper](http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf)
 
@@ -18,6 +22,3 @@
 
 # CNN
 [Fun CNN walkthrough](https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721#.n7bfrewa9)
-
-# TensorFlow
-[O'Reilly basic concepts overview](https://www.oreilly.com/learning/hello-tensorflow)
