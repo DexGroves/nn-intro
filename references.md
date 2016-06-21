@@ -18,3 +18,6 @@
 
 # CNN
 [Fun CNN walkthrough](https://medium.com/@ageitgey/machine-learning-is-fun-part-3-deep-learning-and-convolutional-neural-networks-f40359318721#.n7bfrewa9)
+
+# TensorFlow
+[O'Reilly basic concepts overview](https://www.oreilly.com/learning/hello-tensorflow)
