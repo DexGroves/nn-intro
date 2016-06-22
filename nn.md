@@ -72,6 +72,8 @@
 ## Gradient Descent and Momentum
 \includegraphics[width=4in]{png/grad-desc/gdesc08.jpg}
 
+## Insert ripoff w/ w/o momentum in a ravine image here
+
 # Backprop
 
 ## Forward pass
@@ -179,7 +181,11 @@
 \includegraphics[width=4in]{png/conv/convnet7.png}
 
 ## AlexNet's filters
-\includegraphics[width=2.4in]{png/conv/convnet6_alexnet.jpeg}
+\begin{center}
+\includegraphics[width=2.2in]{png/conv/convnet6_alexnet.jpeg}
+
+Image credit: Krizhevsky et al. 2012
+\end{center}
 
 ## Pooling
 \includegraphics[width=4in]{png/conv/convnet8a.png}
