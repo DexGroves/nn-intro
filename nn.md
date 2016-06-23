@@ -72,7 +72,17 @@
 ## Gradient Descent and Momentum
 \includegraphics[width=4in]{png/grad-desc/gdesc08.jpg}
 
-## Insert ripoff w/ w/o momentum in a ravine image here
+## Ravines
+\includegraphics[width=4in]{png/grad-desc/ravine00.png}
+
+## Ravines - without momentum
+\includegraphics[width=4in]{png/grad-desc/ravine01.png}
+
+## Ravines - with momentum
+\includegraphics[width=4in]{png/grad-desc/ravine02.png}
+
+## Stochastic gradient descent
+\includegraphics[width=4in]{png/grad-desc/ravine03.png}
 
 # Backprop
 
@@ -106,10 +116,6 @@
 ## Backwards pass
 \includegraphics[width=4in]{png/bprop/1-bpass7.png}
 
-## Resources
-- Cool youtube series: https://www.youtube.com/watch?v=bxe2T-V8XRs
-- Pain and toil: Elements of Statistical Learning ch11
-
 # Activations
 
 ## Linear
@@ -138,6 +144,16 @@
 - Train very quickly
 - Good at interpolation
 \includegraphics[width=2in,right,valign=b]{png/3-activations_gaussian.png}
+
+# How to train your pet network
+
+## How to train your pet network (generally)
+- Use ReLU
+- Use minibatch GD with Nesterov momentum
+- $\leq$ 3 layers (unless convolutional)
+- Use dropout ($\approx 0.2$ input layer, $\approx 0.5$ else)
+- Prefer wider with L2 over smaller
+- Be careful with weight initialization!
 
 # Convolutional Neural Networks
 
