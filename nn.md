@@ -81,6 +81,12 @@
 ## Ravines - with momentum
 \includegraphics[width=4in]{png/grad-desc/ravine02.png}
 
+## Nesterov momentum
+\includegraphics[width=3.8in]{png/grad-desc/nesterov00.png}
+
+## Nesterov momentum
+\includegraphics[width=3.8in]{png/grad-desc/nesterov01.png}
+
 ## Stochastic gradient descent
 \includegraphics[width=4in]{png/grad-desc/ravine03.png}
 
@@ -154,6 +160,10 @@
 - Use dropout ($\approx 0.2$ input layer, $\approx 0.5$ else)
 - Prefer wider with L2 over smaller
 - Be careful with weight initialization!
+
+## Libraries for newbs
+- mxnet
+- Keras
 
 # Convolutional Neural Networks
 
