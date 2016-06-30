@@ -7,6 +7,8 @@
 - Hypest ML
 - Good at unstructured problems
 - Suboptimal at structured problems
+- cs231n.github.io
+- github.com/DexGroves/nn-intro (references.md)
 
 ## History
 
@@ -14,7 +16,7 @@
 - Resurgence in 1970s
 - Resurgence in late 2000s
 
-# What is a Neural Network?
+# What is
 
 ## A graphical linear model
 \includegraphics[width=4in]{png/0-linmod0.png}
@@ -43,7 +45,7 @@
 ## A multilayer multinomial classifier
 \includegraphics[width=4in]{png/2-mlp_multinomial0.png}
 
-# Gradient Descent
+# Gradient
 
 ## Gradient Descent
 \includegraphics[width=4in]{png/grad-desc/gdesc00.jpg}
@@ -151,11 +153,11 @@
 - Good at interpolation
 \includegraphics[width=2in,right,valign=b]{png/3-activations_gaussian.png}
 
-# How to train your pet network
+# How to
 
-## How to train your pet network (generally)
+## Six simple rules for training your neural network
 - Use ReLU
-- Use minibatch GD with Nesterov momentum
+- Use minibatch GD with Nesterov momentum ($\approx 0.9$)
 - $\leq$ 3 layers (unless convolutional)
 - Use dropout ($\approx 0.2$ input layer, $\approx 0.5$ else)
 - Prefer wider with L2 over smaller
@@ -165,7 +167,7 @@
 - mxnet
 - Keras
 
-# Convolutional Neural Networks
+# Convolution
 
 ## Convolutional Neural Networks
 - Image recognition killer
@@ -200,18 +202,18 @@
 ## One filter forms a surface
 \includegraphics[width=4in]{png/conv/convnet5f.png}
 
-## Many filters form a volume
-\includegraphics[width=4in]{png/conv/convnet5g.png}
-
-## Typical processing structure
-\includegraphics[width=4in]{png/conv/convnet7.png}
-
 ## AlexNet's filters
 \begin{center}
 \includegraphics[width=2.2in]{png/conv/convnet6_alexnet.jpeg}
 
 Image credit: Krizhevsky et al. 2012
 \end{center}
+
+## Many filters form a volume
+\includegraphics[width=4in]{png/conv/convnet5g.png}
+
+## Typical processing structure
+\includegraphics[width=4in]{png/conv/convnet7.png}
 
 ## Pooling
 \includegraphics[width=4in]{png/conv/convnet8a.png}
