@@ -1,0 +1,28 @@
+---
+title: "Winning 24-hour Predictive Modeling Competitions"
+author: "Declan Groves"
+date: "13 September 2016"
+output: beamer_presentation
+---
+
+## Intro
+
+## Strat
+
+```
+design etl
+while time_remains:
+    engineer features
+    remove features
+    fit a gbm 
+    validate actions
+optimise hyperparameters
+```
+
+## Response Engineering
+
+## Feature Engineering
+
+## Validation
+
+## Model Speedrunning
