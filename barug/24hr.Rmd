@@ -1,5 +1,6 @@
 ---
-title: "Winning 24-hour Predictive Modeling Competitions"
+title: "Winning 24-hour Modeling Competitions"
+subtitle: "github.com/dexgroves/talks"
 author: "Declan Groves"
 date: "13 September 2016"
 output: beamer_presentation
