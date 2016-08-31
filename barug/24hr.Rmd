@@ -18,11 +18,11 @@ output: beamer_presentation
 ```
 design etl
 while time remains:
-    enginueer features
+    engineer features
     remove features
     fit a gbm
     validate actions
-optimise hyperparameters
+optimize hyperparameters
 ```
 
 <!-- Words on what a gbm is. xgboost -->
@@ -73,7 +73,7 @@ add_dex_features <- function(df) {
 }
 ```
 
-<!-- Say wordson importance of version control, etc, should be obvious. -->
+<!-- Say words on importance of version control, etc, should be obvious. -->
 
 ## Validation
 
