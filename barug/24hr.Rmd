@@ -8,20 +8,20 @@ output: beamer_presentation
 
 ## Intro
 
-  - Allstate
-  - $\approx 220$ data people
-  - Quarterly kaggles
-  - 24/48hr time limit
+>  - Allstate
+>  - $\approx 220$ data people
+>  - Quarterly kaggles
+>  - 24/48hr time limit
 
 ## Strat
 
 ```
 design etl
-while time remains:
-    engineer features
-    remove features
-    fit a gbm
-    validate actions
+while time remains:   ___
+    engineer features    |
+    remove features      |-- Maximize time spent here
+    fit a gbm            |
+    validate actions  ___|
 optimize hyperparameters
 ```
 
@@ -33,17 +33,17 @@ optimize hyperparameters
 
 ## Response Engineering
 
-  - High performance gain per time investment
-  - Examples:
-    - Target a $\Delta$
-    - Target a percentage
-    - Target a transformation, $\log(y)$ etc
+ - High performance gain per time investment
+ - Examples:
+   - Target a $\Delta$
+   - Target a percentage
+   - Target a transformation, $\log(y)$ etc
 
 ## Feature Engineering
 
-  - Transformed $X$ captures signal better than vanilla $X$
-  - Reverse generative process by thinking
-  - ...or just throw stuff at wall
+>  - Transformed $X$ captures signal better than vanilla $X$
+>  - Reverse generative process by thinking
+>  - ...or just throw stuff at wall
 
 ## Feature Engineering
 
@@ -62,7 +62,7 @@ optimize hyperparameters
   - Random or unstable predictors do harm
   - Low influence
   - Unexpectedly high influence
-  - Counterintuitive trends
+  - Counterintuitive trends (marginal effects)
 
 ## Collaborating
 
@@ -71,6 +71,16 @@ add_dex_features <- function(df) {
   ...
   df
 }
+```
+
+```R
+source("add_dex_features.R")
+...
+df <- add_dex_features(df)
+df <- add_cdc_features(df)
+df <- add_jeremy_features(df)
+df <- add_jesse_features(df)
+...
 ```
 
 <!-- Say words on importance of version control, etc, should be obvious. -->
@@ -83,7 +93,7 @@ add_dex_features <- function(df) {
 
 <!-- Tradeoff. Zhang "think more and try less". -->
 
-## Validation hierarchy
+## Validation Hierarchy
 
   - Holdout {fits quickly, overfits quickly}
   - Cross-validation {fits slowly, overfits slowly}
@@ -95,3 +105,9 @@ add_dex_features <- function(df) {
   - Column subsampling
     - `colsample_bytree`
     - `colsample_bylevel`
+
+## Thanks for listening!
+
+  - github.com/dexgroves/talks
+
+  <!-- Make this better though -->
