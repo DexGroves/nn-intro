@@ -35,9 +35,9 @@ optimize hyperparameters
 
  - High performance gain per time investment
  - Examples:
-   - Target a $\Delta$
-   - Target a percentage
-   - Target a transformation, $\log(y)$ etc
+    - Target a $\Delta$
+    - Target a percentage
+    - Target a transformation, $\log(y)$ etc
 
 ## Feature Engineering
 
