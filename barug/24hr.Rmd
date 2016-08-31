@@ -7,22 +7,90 @@ output: beamer_presentation
 
 ## Intro
 
+  - Allstate
+  - $\approx 220$ data people
+  - Quarterly kaggles
+  - 24/48hr time limit
+
 ## Strat
 
 ```
 design etl
-while time_remains:
-    engineer features
+while time remains:
+    enginueer features
     remove features
-    fit a gbm 
+    fit a gbm
     validate actions
 optimise hyperparameters
 ```
 
+<!-- Words on what a gbm is. xgboost -->
+
+<!-- Zhang said that ideas last about a week, so plenty of time -->
+
+<!-- Small data: linear models. Stuff with greater resources: other models. -->
+
 ## Response Engineering
+
+  - High performance gain per time investment
+  - Examples:
+    - Target a $\Delta$
+    - Target a percentage
+    - Target a transformation, $\log(y)$ etc
 
 ## Feature Engineering
 
+  - Transformed $X$ captures signal better than vanilla $X$
+  - Reverse generative process by thinking
+  - ...or just throw stuff at wall
+
+## Feature Engineering
+
+  - Combine covariates, custom interactions
+  - Map covariates to a new space
+  - Treat high-cardinality variables
+
+## Feature Engineering Examples
+
+  - Dates $\rightarrow$ time since something
+  - Counts $\rightarrow$ fractions
+  - Ordinals $\rightarrow$ ordinals vs group averages
+
+## Feature Pruning
+
+  - Random or unstable predictors do harm
+  - Low influence
+  - Unexpectedly high influence
+  - Counterintuitive trends
+
+## Collaborating
+
+```R
+add_dex_features <- function(df) {
+  ...
+  df
+}
+```
+
+<!-- Say wordson importance of version control, etc, should be obvious. -->
+
 ## Validation
 
+  - Want a fast, reliable feedback loop
+  - Going quickly around loop is good
+  - Every iteration, credibility is lost
+
+<!-- Tradeoff. Zhang "think more and try less". -->
+
+## Validation hierarchy
+
+  - Holdout {fits quickly, overfits quickly}
+  - Cross-validation {fits slowly, overfits slowly}
+  - Leaderboard
+
 ## Model Speedrunning
+
+  - Fewer trees, higher shrinkage (`eta`)
+  - Column subsampling
+    - `colsample_bytree`
+    - `colsample_bylevel`
