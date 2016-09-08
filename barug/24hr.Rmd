@@ -17,10 +17,11 @@ output: beamer_presentation
 
 ```
 design etl
+engineer response
 while time remains:   ___
     engineer features    |
     remove features      |-- Maximize time spent here
-    fit a gbm            |
+    xgboost              |
     validate actions  ___|
 optimize hyperparameters
 ```
@@ -51,11 +52,12 @@ optimize hyperparameters
   - Map covariates to a new space
   - Treat high-cardinality variables
 
-## Feature Engineering Examples
+<!-- ## Feature Engineering Examples
 
   - Dates $\rightarrow$ time since something
   - Counts $\rightarrow$ fractions
   - Ordinals $\rightarrow$ ordinals vs group averages
+ -->
 
 ## Feature Pruning
 
@@ -64,7 +66,7 @@ optimize hyperparameters
   - Unexpectedly high influence
   - Counterintuitive trends (marginal effects)
 
-## Collaborating
+<!-- ## Collaborating
 
 ```R
 add_dex_features <- function(df) {
@@ -81,14 +83,14 @@ df <- add_cdc_features(df)
 df <- add_jeremy_features(df)
 df <- add_jesse_features(df)
 ...
-```
+``` -->
 
 <!-- Say words on importance of version control, etc, should be obvious. -->
 
 ## Validation
 
-  - Want a fast, reliable feedback loop
-  - Going quickly around loop is good
+  - Want a reliable feedback loop
+  - Want a fast feedback loop
   - Every iteration, credibility is lost
 
 <!-- Tradeoff. Zhang "think more and try less". -->
@@ -102,7 +104,7 @@ df <- add_jesse_features(df)
 ## Model Speedrunning
 
   - Sparsity (if it makes sense)
-  - Fewer trees, higher shrinkage (`eta`)
+  - Fewer trees, greater learning rate (`eta`)
   - Early stopping
   - Column subsampling
     - `colsample_bytree`
