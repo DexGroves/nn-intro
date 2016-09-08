@@ -101,7 +101,9 @@ df <- add_jesse_features(df)
 
 ## Model Speedrunning
 
+  - Sparsity (if it makes sense)
   - Fewer trees, higher shrinkage (`eta`)
+  - Early stopping
   - Column subsampling
     - `colsample_bytree`
     - `colsample_bylevel`
