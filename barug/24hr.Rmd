@@ -46,11 +46,11 @@ optimize hyperparameters
 >  - Reverse generative process by thinking
 >  - ...or just throw stuff at wall
 
-## Feature Engineering
+<!-- ## Feature Engineering
 
   - Combine covariates, custom interactions
   - Map covariates to a new space
-  - Treat high-cardinality variables
+  - Treat high-cardinality variables -->
 
 <!-- ## Feature Engineering Examples
 
