@@ -6,39 +6,36 @@ date: "13 September 2016"
 output: beamer_presentation
 ---
 
-## Intro
-
->  - Allstate
->  - $\approx 220$ data people
->  - Quarterly kaggles
->  - 24/48hr time limit
-
-## Strat
+## Strategy
 
 ```
 design etl
 engineer response
-while time remains:   ___
+while awake:          ___
     engineer features    |
     remove features      |-- Maximize time spent here
     xgboost              |
     validate actions  ___|
-optimize hyperparameters
+optimize hyperparameters / go to bed
 ```
-
 <!-- Words on what a gbm is. xgboost -->
 
 <!-- Zhang said that ideas last about a week, so plenty of time -->
 
 <!-- Small data: linear models. Stuff with greater resources: other models. -->
 
+<!-- ## Intro
+
+>  - Allstate
+>  - $\approx 220$ data people
+>  - Quarterly kaggles
+>  - 24/48hr time limit
+ -->
+
 ## Response Engineering
 
  - High performance gain per time investment
- - Examples:
-    - Target a $\Delta$
-    - Target a percentage
-    - Target a transformation, $\log(y)$ etc
+ - Example: target a percentage
 
 ## Feature Engineering
 
@@ -52,19 +49,17 @@ optimize hyperparameters
   - Map covariates to a new space
   - Treat high-cardinality variables -->
 
-<!-- ## Feature Engineering Examples
+## Example Feature Engineering Targets
 
-  - Dates $\rightarrow$ time since something
-  - Counts $\rightarrow$ fractions
-  - Ordinals $\rightarrow$ ordinals vs group averages
- -->
+  - Dates
+  - High cardinality factors
 
 ## Feature Pruning
 
   - Random or unstable predictors do harm
   - Low influence
   - Unexpectedly high influence
-  - Counterintuitive trends (marginal effects)
+  - Counterintuitive trends
 
 <!-- ## Collaborating
 
