@@ -1,6 +1,6 @@
 ---
 title: "Winning 24-hour Modeling Competitions"
-subtitle: "github.com/dexgroves/talks"
+subtitle: "dexgroves.com/talks"
 author: "Declan Groves"
 date: "13 September 2016"
 output: beamer_presentation
@@ -18,6 +18,7 @@ while awake:          ___
     validate actions  ___|
 optimize hyperparameters / go to bed
 ```
+
 <!-- Words on what a gbm is. xgboost -->
 
 <!-- Zhang said that ideas last about a week, so plenty of time -->
@@ -107,6 +108,5 @@ df <- add_jesse_features(df)
 
 ## Thanks for listening!
 
-  - github.com/dexgroves/talks
+  - dexgroves.com/talks
 
-  <!-- Make this better though -->
