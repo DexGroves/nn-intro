@@ -150,12 +150,18 @@ optimize hyperparameters (maybe go to bed)
 
 ## Example Feature Engineering Targets
 
-- Dates
-    - EG: unix datetime of accident
-    - Weekend, time-of-day, season, ...
-- High cardinality factors
-    - EG: Make-model-modelyear
-    - {Another talk}
+\begin{itemize}[<+->]
+    \item Dates
+    \begin{itemize}
+        \item<.-> Example: unix datetime of accident
+        \item<.-> Weekend, time-of-day, season, ...
+    \end{itemize}
+    \item High cardinality factors
+    \begin{itemize}
+        \item<.-> Example: Make-model-modelyear
+        \item<.-> {Another talk}
+    \end{itemize}
+\end{itemize}
 
 ## Feature Pruning
 
@@ -177,12 +183,16 @@ optimize hyperparameters (maybe go to bed)
 
 ## Model Speedrunning
 
- - Sparsity (if it makes sense)
- - Fewer trees, greater learning rate (`eta`)
- - Early stopping
- - Column subsampling
-    - `colsample_bytree`
-    - `colsample_bylevel`
+\begin{itemize}[<+->]
+    \item Sparsity (if it makes sense)
+    \item Fewer trees, greater learning rate ($\texttt{eta}$)
+    \item Early stopping
+    \item Column subsampling
+    \begin{itemize}
+        \item<.-> $\texttt{colsample\_bytree}$
+        \item<.-> $\texttt{colsample\_bytree}$
+    \end{itemize}
+\end{itemize}
 
 ## Thanks for listening!
 
