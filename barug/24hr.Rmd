@@ -6,6 +6,123 @@ date: "13 September 2016"
 output: beamer_presentation
 ---
 
+## But why
+
+ - It's fun!
+ - Quick POC
+ - Take-home modeling exercises
+
+## Strategy
+
+```
+design etl
+
+
+
+
+
+
+
+
+```
+
+## Strategy
+
+```
+design etl
+engineer response
+
+
+
+
+
+
+
+```
+
+## Strategy
+
+```
+design etl
+engineer response
+while awake:
+
+
+
+
+
+
+```
+
+## Strategy
+
+```
+design etl
+engineer response
+while awake:
+    engineer features
+
+
+
+
+
+```
+
+## Strategy
+
+```
+design etl
+engineer response
+while awake:
+    engineer features
+    remove features
+
+
+
+
+```
+
+## Strategy
+
+```
+design etl
+engineer response
+while awake:
+    engineer features
+    remove features
+    xgboost
+
+
+
+```
+
+## Strategy
+
+```
+design etl
+engineer response
+while awake:
+    engineer features
+    remove features
+    xgboost
+    validate actions
+
+
+```
+
+## Strategy
+
+```
+design etl
+engineer response
+while awake:
+    engineer features
+    remove features
+    xgboost
+    validate actions
+optimize hyperparameters (maybe go to bed)
+```
+
 ## Strategy
 
 ```
@@ -16,97 +133,57 @@ while awake:          ___
     remove features      |-- Maximize time spent here
     xgboost              |
     validate actions  ___|
-optimize hyperparameters / go to bed
+optimize hyperparameters (maybe go to bed)
 ```
-
-<!-- Words on what a gbm is. xgboost -->
-
-<!-- Zhang said that ideas last about a week, so plenty of time -->
-
-<!-- Small data: linear models. Stuff with greater resources: other models. -->
-
-<!-- ## Intro
-
->  - Allstate
->  - $\approx 220$ data people
->  - Quarterly kaggles
->  - 24/48hr time limit
- -->
 
 ## Response Engineering
 
- - High performance gain per time investment
- - Example: target a percentage
+> - Transform $y$
+> - High performance gain per time investment
+> - Example: target a percentage
 
 ## Feature Engineering
 
->  - Transformed $X$ captures signal better than vanilla $X$
->  - Reverse generative process by thinking
->  - ...or just throw stuff at wall
-
-<!-- ## Feature Engineering
-
-  - Combine covariates, custom interactions
-  - Map covariates to a new space
-  - Treat high-cardinality variables -->
+> - Transform $X$
+> - Reverse generative process by thinking
+> - ...or just throw stuff at wall
 
 ## Example Feature Engineering Targets
 
-  - Dates
-  - High cardinality factors
+- Dates
+    - EG: unix datetime of accident
+    - Weekend, time-of-day, season, ...
+- High cardinality factors
+    - EG: Make-model-modelyear
+    - {Another talk}
 
 ## Feature Pruning
 
-  - Random or unstable predictors do harm
-  - Low influence
-  - Unexpectedly high influence
-  - Counterintuitive trends
-
-<!-- ## Collaborating
-
-```R
-add_dex_features <- function(df) {
-  ...
-  df
-}
-```
-
-```R
-source("add_dex_features.R")
-...
-df <- add_dex_features(df)
-df <- add_cdc_features(df)
-df <- add_jeremy_features(df)
-df <- add_jesse_features(df)
-...
-``` -->
-
-<!-- Say words on importance of version control, etc, should be obvious. -->
+> - Random/unstable predictors do harm
+> - Low influence
+> - Unexpectedly high influence
+> - Counterintuitive trends
 
 ## Validation
 
-  - Want a reliable feedback loop
-  - Want a fast feedback loop
-  - Every iteration, credibility is lost
-
-<!-- Tradeoff. Zhang "think more and try less". -->
+> - Feedback loops are dangerous
+> - Every iteration, credibility is lost
 
 ## Validation Hierarchy
 
-  - Holdout {fits quickly, overfits quickly}
-  - Cross-validation {fits slowly, overfits slowly}
-  - Leaderboard
+  1. Holdout {fits quickly, overfits quickly}
+  2. Cross-validation {fits slowly, overfits slowly}
+  3. Leaderboard {overfit at your peril}
 
 ## Model Speedrunning
 
-  - Sparsity (if it makes sense)
-  - Fewer trees, greater learning rate (`eta`)
-  - Early stopping
-  - Column subsampling
+ - Sparsity (if it makes sense)
+ - Fewer trees, greater learning rate (`eta`)
+ - Early stopping
+ - Column subsampling
     - `colsample_bytree`
     - `colsample_bylevel`
 
 ## Thanks for listening!
 
   - dexgroves.com/talks
-
