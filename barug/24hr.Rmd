@@ -190,7 +190,7 @@ optimize hyperparameters (maybe go to bed)
     \item Column subsampling
     \begin{itemize}
         \item<.-> $\texttt{colsample\_bytree}$
-        \item<.-> $\texttt{colsample\_bytree}$
+        \item<.-> $\texttt{colsample\_bylevel}$
     \end{itemize}
 \end{itemize}
 
